@@ -2,7 +2,7 @@ import algorithms.easy.*;
 
 public class Main {
     public static void main(String[] args) {
-        RomanToInt romanToInt = new RomanToInt();
-        System.out.println(romanToInt.romanToInt("MCMXCIV"));
+        LongestCommonPrefix test = new LongestCommonPrefix();
+        System.out.printf(test.testCases());
     }
 }
